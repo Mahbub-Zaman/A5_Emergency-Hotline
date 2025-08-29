@@ -16,6 +16,28 @@
     <title>Emergency-Hotline</title>
 </head>
 <body>
-    
+    <!--Nav Bar Section-->
+        <nav class="flex justify-between pt-4 pb-4 pl-[60px] pr-[60px] max-md:pl-[10px] max-md:pr-[10px] max-md:flex-col max-md:gap-3">
+            <div class="flex gap-2 items-center max-md:w-[100%] max-md:justify-center">
+                <img src="assets/logo.png" class="w-[50px] h-[50px]" alt="logo" srcset="">
+                <h1 class="font-hind text-[#006747] text-[20px] font-bold w-[30%] leading-[24px]">Emergency Service</h1>
+            </div>
+            <div class="flex gap-[20px] justify-center items-center max-md:justify-center">
+                <button 
+                    class="inline-flex items-center flex-row-reverse gap-3 px-4 py-2 rounded-2xl bg-[#41ff6b1a] text-black hover:bg-midnight transition">
+                    <img src="assets/heart.png" alt="Arrow Icon" class="w-5 h-5" />
+                    <span id="heart-count" class="font-inter text-[16px] text-black font-bold">0</span>
+                </button>
+                <button
+                    class="inline-flex items-center gap-1 px-4 py-2 rounded-2xl bg-[#41ff6b1a] text-black hover:bg-midnight transition">
+                    <img src="assets/coin.png" alt="Arrow Icon" class="w-5 h-5" />
+                    <span id="coins" class="font-inter text-[16px] text-black font-bold">100</span>
+                </button>
+                <button 
+                    class="pl-7 pr-7 inline-flex items-center gap-1 px-4 py-2 rounded-[99px] bg-[#00A63E] text-[16px] font-normal text-white hover:bg-midnight transition"><span id="copy-count">0</span> 
+                    Copy</button>
+            </div>
+            </div>
+        </nav>
 </body>
 </html>

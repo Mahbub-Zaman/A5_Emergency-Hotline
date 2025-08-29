@@ -47,5 +47,254 @@
             <p class="font-hind text-[20px] font-medium text-white max-md:text-[16px] max-md:text-center">Government Emergency Services at Your Fingertip - A Project by Government of the People's Republic of Bangladesh</p>
         </div>
     </header>
+
+    <!--Main Section-->
+    <main class="pl-[60px] pr-[60px] bg-[#F5FFF6] pt-10 pb-10 flex justify-between max-md:flex-col max-md:pl-[10px] max-md:pr-[10px]">
+        <div class="w-[75%] grid grid-cols-3 gap-8 max-md:grid-cols-1 max-md:w-[100%]">
+            <!-- Box 1 -->
+            <div class="flex  gap-6">
+                <div class="w-full  bg-white rounded-2xl shadow p-5">
+                    <div class="flex justify-between items-start">
+                        <img src="assets/emergency.png" class="w-12 h-12 rounded-lg bg-pink-100 p-2"
+                            alt="Emergency Icon">
+                        <button class="heart-icon w-[24px] text-gray-400 hover:text-red-500">♡</button>
+                    </div>
+                    <h1 class="font-hind mt-3 text-[22px] font-bold text-gray-900">National Emergency Number</h1>
+                    <p class="text-[16px] font-roboto text-gray-500">National Emergency</p>
+                    <p class="mt-3 font-inter text-[30px] font-bold text-black">999</p>
+                    <span
+                        class="font-hind text-[#5c5c5c] inline-block px-3 py-1 text-xs font-medium bg-gray-100 rounded-full">All</span>
+                    <div class="mt-4 flex gap-2">
+                        <button  data-name="National Emergency Number" data-number="999"
+                            class="copy-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50">
+                            <img src="resources/copy.svg" alt="" srcset="">
+                            Copy
+                        </button>
+                        <button onclick="makeCall('National Emergency Number', '999')"
+                            class="call-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg bg-green-600 px-3 py-2 text-sm text-white hover:bg-green-700">
+                            <img src="resources/call.svg" alt="" srcset="">
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="flex  gap-6">
+                <div class="w-full  bg-white rounded-2xl shadow p-5">
+                    <div class="flex justify-between items-start">
+                        <img src="assets/police.png" class="w-12 h-12 rounded-lg bg-pink-100 p-2"
+                            alt="Emergency Icon">
+                        <button class="heart-icon w-[24px] text-gray-400 hover:text-red-500">♡</button>
+                    </div>
+                    <h1 class="font-hind mt-3 text-[22px] font-bold text-gray-900">Police Helpline Number</h1>
+                    <p class="text-[16px] font-roboto text-gray-500">Police</p>
+                    <p class="mt-3 font-inter text-[30px] font-bold text-black">999</p>
+                    <span
+                        class="font-hind text-[#5c5c5c] inline-block px-3 py-1 text-xs font-medium bg-gray-100 rounded-full">Police</span>
+                    <div class="mt-4 flex gap-2">
+                        <button data-name="Police Helpline Number" data-number="999"
+                            class="copy-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50">
+                            <img src="resources/copy.svg" alt="" srcset="">
+                            Copy
+                        </button>
+                        <button onclick="makeCall('Police Helpline Number', '999')"
+                            class="font-inter flex-1 flex items-center justify-center gap-2 rounded-lg bg-green-600 px-3 py-2 text-sm text-white hover:bg-green-700">
+                            <img src="resources/call.svg" alt="" srcset="">
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 3 -->
+            <div class="flex  gap-6">
+                <div class="w-full  bg-white rounded-2xl shadow p-5">
+                    <div class="flex justify-between items-start">
+                        <img src="assets/fire-service.png" class="w-12 h-12 rounded-lg bg-pink-100 p-2"
+                            alt="Emergency Icon">
+                        <button class="heart-icon w-[24px] text-gray-400 hover:text-red-500">♡</button>
+                    </div>
+                    <h1 class="font-hind mt-3 text-[22px] font-bold text-gray-900">Fire Service Number</h1>
+                    <p class="text-[16px] font-roboto text-gray-500">Fire Service</p>
+                    <p class="mt-3 font-inter text-[30px] font-bold text-black">999</p>
+                    <span
+                        class="font-hind text-[#5c5c5c] inline-block px-3 py-1 text-xs font-medium bg-gray-100 rounded-full">Fire</span>
+                    <div class="mt-4 flex gap-2">
+                        <button data-name="Fire Service Number" data-number="999"
+                            class="copy-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50">
+                            <img src="resources/copy.svg" alt="" srcset="">
+                            Copy
+                        </button>
+                        <button onclick="makeCall('Fire Service Number', '999')"
+                            class="font-inter flex-1 flex items-center justify-center gap-2 rounded-lg bg-green-600 px-3 py-2 text-sm text-white hover:bg-green-700">
+                            <img src="resources/call.svg" alt="" srcset="">
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 4 -->
+            <div class="flex  gap-6">
+                <div class="w-full  bg-white rounded-2xl shadow p-5">
+                    <div class="flex justify-between items-start">
+                        <img src="assets/ambulance.png" class="w-12 h-12 rounded-lg bg-pink-100 p-2"
+                            alt="Emergency Icon">
+                        <button class="heart-icon w-[24px] text-gray-400 hover:text-red-500">♡</button>
+                    </div>
+                    <h1 class="font-hind mt-3 text-[22px] font-bold text-gray-900">Ambulance Service</h1>
+                    <p class="text-[16px] font-roboto text-gray-500">Ambulance</p>
+                    <p class="mt-3 font-inter text-[30px] font-bold text-black">1994-999999</p>
+                    <span
+                        class="font-hind text-[#5c5c5c] inline-block px-3 py-1 text-xs font-medium bg-gray-100 rounded-full">Health</span>
+                    <div class="mt-4 flex gap-2">
+                        <button data-name="Ambulance Service" data-number="1994-999999"
+                            class="copy-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50">
+                            <img src="resources/copy.svg" alt="" srcset="">
+                            Copy
+                        </button>
+                        <button onclick="makeCall('Ambulance Service', '1994-999999')"
+                            class="font-inter flex-1 flex items-center justify-center gap-2 rounded-lg bg-green-600 px-3 py-2 text-sm text-white hover:bg-green-700">
+                            <img src="resources/call.svg" alt="" srcset="">
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 5 -->
+            <div class="flex  gap-6">
+                <div class="w-full  bg-white rounded-2xl shadow p-5">
+                    <div class="flex justify-between items-start">
+                        <img src="assets/emergency.png" class="w-12 h-12 rounded-lg bg-pink-100 p-2"
+                            alt="Emergency Icon">
+                        <button class="heart-icon w-[24px] text-gray-400 hover:text-red-500">♡</button>
+                    </div>
+                    <h1 class="font-hind mt-3 text-[22px] font-bold text-gray-900">Women & Child Helpline</h1>
+                    <p class="text-[16px] font-roboto text-gray-500">Women & Child Helpline</p>
+                    <p class="mt-3 font-inter text-[30px] font-bold text-black">109</p>
+                    <span
+                        class="font-hind text-[#5c5c5c] inline-block px-3 py-1 text-xs font-medium bg-gray-100 rounded-full">Help</span>
+                    <div class="mt-4 flex gap-2">
+                        <button data-name="Women & Child Helpline" data-number="109"
+                            class="copy-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50">
+                            <img src="resources/copy.svg" alt="" srcset="">
+                            Copy
+                        </button>
+                        <button onclick="makeCall('Women & Child Helpline', '109')"
+                            class="font-inter flex-1 flex items-center justify-center gap-2 rounded-lg bg-green-600 px-3 py-2 text-sm text-white hover:bg-green-700">
+                            <img src="resources/call.svg" alt="" srcset="">
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 6 -->
+            <div class="flex  gap-6">
+                <div class="w-full  bg-white rounded-2xl shadow p-5">
+                    <div class="flex justify-between items-start">
+                        <img src="assets/emergency.png" class="w-12 h-12 rounded-lg bg-pink-100 p-2"
+                            alt="Emergency Icon">
+                        <button class="heart-icon w-[24px] text-gray-400 hover:text-red-500">♡</button>
+                    </div>
+                    <h1 class="font-hind mt-3 text-[22px] font-bold text-gray-900">Anti-Corruption Helpline</h1>
+                    <p class="text-[16px] font-roboto text-gray-500">Anti-Corruption</p>
+                    <p class="mt-3 font-inter text-[30px] font-bold text-black">106</p>
+                    <span
+                        class="font-hind text-[#5c5c5c] inline-block px-3 py-1 text-xs font-medium bg-gray-100 rounded-full">Govt.</span>
+                    <div class="mt-4 flex gap-2">
+                        <button data-name="Anti-Corruption Helpline" data-number="106"
+                            class="copy-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50">
+                            <img src="resources/copy.svg" alt="" srcset="">
+                            Copy
+                        </button>
+                        <button onclick="makeCall('Anti-Corruption Helpline', '106')"
+                            class="font-inter flex-1 flex items-center justify-center gap-2 rounded-lg bg-green-600 px-3 py-2 text-sm text-white hover:bg-green-700">
+                            <img src="resources/call.svg" alt="" srcset="">
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 7 -->
+            <div class="flex  gap-6">
+                <div class="w-full  bg-white rounded-2xl shadow p-5">
+                    <div class="flex justify-between items-start">
+                        <img src="assets/emergency.png" class="w-12 h-12 rounded-lg bg-pink-100 p-2"
+                            alt="Emergency Icon">
+                        <button class="heart-icon w-[24px] text-gray-400 hover:text-red-500">♡</button>
+                    </div>
+                    <h1 class="font-hind mt-3 text-[22px] font-bold text-gray-900">Electricity Helpline</h1>
+                    <p class="text-[16px] font-roboto text-gray-500">Electricity Outage</p>
+                    <p class="mt-3 font-inter text-[30px] font-bold text-black">16216</p>
+                    <span
+                        class="font-hind text-[#5c5c5c] inline-block px-3 py-1 text-xs font-medium bg-gray-100 rounded-full">Electricity</span>
+                    <div class="mt-4 flex gap-2">
+                        <button data-name="Electricity Helpline" data-number="16216"
+                            class="copy-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50">
+                            <img src="resources/copy.svg" alt="" srcset="">
+                            Copy
+                        </button>
+                        <button onclick="makeCall('Electricity Helpline', '16216')"
+                            class="font-inter flex-1 flex items-center justify-center gap-2 rounded-lg bg-green-600 px-3 py-2 text-sm text-white hover:bg-green-700">
+                            <img src="resources/call.svg" alt="" srcset="">
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 8 -->
+            <div class="flex  gap-6">
+                <div class="w-full  bg-white rounded-2xl shadow p-5">
+                    <div class="flex justify-between items-start">
+                        <img src="assets/brac.png" class="w-12 h-12 rounded-lg bg-pink-100 p-2"
+                            alt="Emergency Icon">
+                        <button class="heart-icon w-[24px] text-gray-400 hover:text-red-500">♡</button>
+                    </div>
+                    <h1 class="font-hind mt-3 text-[22px] font-bold text-gray-900">Brac Helpline</h1>
+                    <p class="text-[16px] font-roboto text-gray-500">Brac</p>
+                    <p class="mt-3 font-inter text-[30px] font-bold text-black">16445</p>
+                    <span
+                        class="font-hind text-[#5c5c5c] inline-block px-3 py-1 text-xs font-medium bg-gray-100 rounded-full">NGO</span>
+                    <div class="mt-4 flex gap-2">
+                        <button data-name="Brac Helpline" data-number="16445"
+                            class="copy-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50">
+                            <img src="resources/copy.svg" alt="" srcset="">
+                            Copy
+                        </button>
+                        <button onclick="makeCall('Brac Helpline', '16445')"
+                            class="font-inter flex-1 flex items-center justify-center gap-2 rounded-lg bg-green-600 px-3 py-2 text-sm text-white hover:bg-green-700">
+                            <img src="resources/call.svg" alt="" srcset="">
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Box 9 -->
+            <div class="flex  gap-6">
+                <div class="w-full  bg-white rounded-2xl shadow p-5">
+                    <div class="flex justify-between items-start">
+                        <img src="assets/Bangladesh-Railway.png" class="w-12 h-12 rounded-lg bg-pink-100 p-2"
+                            alt="Emergency Icon">
+                        <button class="heart-icon w-[24px] text-gray-400 hover:text-red-500">♡</button>
+                    </div>
+                    <h1 class="font-hind mt-3 text-[22px] font-bold text-gray-900">Bangladesh Railway Helpline </h1>
+                    <p class="text-[16px] font-roboto text-gray-500">Bangladesh Railway</p>
+                    <p class="mt-3 font-inter text-[30px] font-bold text-black">163</p>
+                    <span
+                        class="font-hind text-[#5c5c5c] inline-block px-3 py-1 text-xs font-medium bg-gray-100 rounded-full">Travel</span>
+                    <div class="mt-4 flex gap-2">
+                        <button data-name="Bangladesh Railway Helpline " data-number="163"
+                            class="copy-btn font-inter flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-50">
+                            <img src="resources/copy.svg" alt="" srcset="">
+                            Copy
+                        </button>
+                        <button onclick="makeCall('Bangladesh Railway Helpline', '163')"
+                            class="font-inter flex-1 flex items-center justify-center gap-2 rounded-lg bg-green-600 px-3 py-2 text-sm text-white hover:bg-green-700">
+                            <img src="resources/call.svg" alt="" srcset="">
+                            Call
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
